@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="character_info_text">23sp</dimen>
+    <dimen name="location_info_text">23sp</dimen>
+    <dimen name="episode_info_text">23sp</dimen>
+</resources>

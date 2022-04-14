@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Rick and Morty</string>
+
+    <string name="menu_characters">Characters</string>
+    <string name="menu_locations">Locations</string>
+    <string name="menu_episodes">Episodes</string>
+    <string name="character_image">Character image</string>
+
+    <string name="network_connection_error_title">Network error</string>
+    <string name="network_connection_no_data">Failed to load data. Please try to change filter parameters</string>
+    <string name="network_connection_error_cancel">Cancel</string>
+    <string name="network_connection_error_action">Try again!</string>
+
+    <string name="search">Search</string>
+    <string name="left_arrow">Left arrow</string>
+    <string name="right_arrow">Right arrow</string>
+    <string name="name">Name:</string>
+    <string name="gender">Gender:</string>
+    <string name="status">Status:</string>
+    <string name="species">Species:</string>
+    <string name="episodes">Episodes:</string>
+    <string name="characters">Characters:</string>
+    <string name="episode">Episode:</string>
+    <string name="air_date">Air Date:</string>
+    <string name="location">Location:</string>
+    <string name="dimension">Dimension:</string>
+    <string name="origin">Origin:</string>
+    <string name="filter">filter</string>
+
+    <string name="hint_name">name</string>
+    <string name="type">Type:</string>
+    <string name="ok">OK</string>
+    <string name="season">Season:</string>
+
+    <string-array name="statuses">
+        <item>Any</item>
+        <item>Alive</item>
+        <item>Dead</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>Any</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Genderless</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string-array name="species">
+        <item>Any</item>
+        <item>Human</item>
+        <item>Alien</item>
+        <item>Humanoid</item>
+        <item>Robot</item>
+        <item>Animal</item>
+        <item>Mythological Creature</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string-array name="seasons">
+        <item>All</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="location_types">
+        <item>Any</item>
+        <item>Planet</item>
+        <item>Cluster</item>
+        <item>Dimension</item>
+        <item>Space station</item>
+        <item>Microverse</item>
+    </string-array>
+</resources>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="4dp">
+
+    <ImageView
+        android:id="@+id/characterImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        tools:background="@drawable/ic_character"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/character_image" />
+
+    <TextView
+        android:id="@+id/characterNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/characterImage"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:text="@string/name"
+        android:textSize="@dimen/character_info_text" />
+
+    <TextView
+        android:id="@+id/characterName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="@dimen/character_info_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/characterLocationTitle"
+        app:layout_constraintTop_toBottomOf="@id/characterImage"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/characterSpeciesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/characterName"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:text="@string/species"
+        android:textSize="@dimen/character_info_text" />
+
+    <TextView
+        android:id="@+id/characterSpecies"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="@dimen/character_info_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/characterLocationTitle"
+        app:layout_constraintTop_toBottomOf="@id/characterName"
+        tools:text="Species" />
+
+    <TextView
+        android:id="@+id/characterTypeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/characterSpecies"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:text="@string/type"
+        android:textSize="@dimen/character_info_text" />
+
+    <TextView
+        android:id="@+id/characterType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="@dimen/character_info_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/characterLocationTitle"
+        app:layout_constraintTop_toBottomOf="@id/characterSpecies"
+        tools:text="Type" />
+
+    <TextView
+        android:id="@+id/characterStatusTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/characterType"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:text="@string/status"
+        android:textSize="@dimen/character_info_text" />
+
+    <TextView
+        android:id="@+id/characterStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="@dimen/character_info_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/characterLocationTitle"
+        app:layout_constraintTop_toBottomOf="@id/characterType"
+        tools:text="Status" />
+
+    <TextView
+        android:id="@+id/characterGenderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/characterStatus"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:text="@string/gender"
+        android:textSize="@dimen/character_info_text" />
+
+    <TextView
+        android:id="@+id/characterGender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="@dimen/character_info_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/characterLocationTitle"
+        app:layout_constraintTop_toBottomOf="@id/characterStatus"
+        tools:text="Gender" />
+
+    <TextView
+        android:id="@+id/characterLocationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/characterGender"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:text="@string/location"
+        android:textSize="@dimen/character_info_text" />
+
+    <TextView
+        android:id="@+id/characterLocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="@dimen/character_info_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/characterLocationTitle"
+        app:layout_constraintTop_toBottomOf="@id/characterGender"
+        tools:text="Location" />
+
+    <TextView
+        android:id="@+id/characterOriginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/characterLocation"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:text="@string/origin"
+        android:textSize="@dimen/character_info_text" />
+
+    <TextView
+        android:id="@+id/characterOrigin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="@dimen/character_info_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/characterLocationTitle"
+        app:layout_constraintTop_toBottomOf="@id/characterLocation"
+        tools:text="Origin" />
+
+    <TextView
+        android:id="@+id/episodes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/characterOrigin"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:text="@string/episodes"
+        android:textSize="@dimen/character_info_text" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/episodes" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/episodes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
